@@ -6,6 +6,6 @@ int main() {
   printf("What is your name? ");
   scanf("%[^\n]%*c", name);
   //(%[^\n]%*c) to accept all characters including spaces
-  printf("Hello World %s!\n");
+  printf("Hello World %s!\n", name);
   return 0;
 }
