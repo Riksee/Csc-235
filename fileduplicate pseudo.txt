@@ -1,0 +1,44 @@
+PROGRAM TO DELETE DUPLICATE FILE
+
+START
+
+declare name_of_file as character array
+declare fileid as integer array
+declare compare_file as integer
+store 0 in it
+declare least_id as integer
+store 0 in it
+declare stepscount, fileno and t as integer
+
+accept numbers of steps
+store it in stepscount
+set a FOR loop to count from 0 to the stepscount-1
+accept number of file to compare 
+store it in fileno
+declare j as integer 
+store 0 in it
+set a while loop j which is less than fileno
+accept filename and id 
+store it in filename of loop j and fileid of loop j
+increment j by 1
+store fileid with 0 to least_id
+set FOR loop of j less than fileno
+set FOR loop of i which is equal to j +1 and i less than fileno
+compare filename of loop j amd I
+store it in compare_file
+check if compare_file is equal to zero and least_id is greater than fileid of loop j
+store fileid of loop j into least_id
+check if compare_file is not equal to zero and fileid of loop j is greater than fileid of loop i 
+store fileid of loop j to t 
+store fileid of loop i to fileid of loop j 
+store t to fileid of loop i 
+set FOR loop from zero to fileno-1
+check if compare_file is not equal to zero 
+display fileid of loop j 
+check if compare_file is equal to zero 
+display the filename and id that won't be deleted
+END
+
+
+
+github link: https://github.com/Riksee/Csc-235.git
