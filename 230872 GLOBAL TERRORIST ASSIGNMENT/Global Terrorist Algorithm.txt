@@ -1,0 +1,17 @@
+START
+Open and read the file 'Terrorist.text' line by line and save it to a variable "input_length"
+Save the first line of the text file to a variable input_sum to show the the total number of cases
+Create a multidimensional array "input_feature" to hold the array of each terrorist cases
+Create a variable "feature_total" to hold the sum of each terrorist cases
+Create a variable "similarity_id" to hold the id of the feature similar to the current feature
+
+Loop through "input_length" and split each element with ','
+find the sum of elements in "input_feature" array and append it to "feature_total" array
+
+Loop through each element in "feature_total" and compare to other elements in "feature_total",
+If they have the same features,
+set the "similarity_id" for the current feature to the index of the similar feature.
+
+similarity_id will have stores the id of features similar to each other.
+display the "similarity_id" array.
+STOP
